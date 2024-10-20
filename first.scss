@@ -1,0 +1,36 @@
+body {
+    background-color: #282c34;
+    font-family: 'Arial', sans-serif;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    opacity: 1;
+    transition: opacity 1s ease; /* Page fade-out transition */
+}
+
+body.fade-out {
+    opacity: 0; /* This class will be added to trigger the fade-out effect */
+}
+
+.container {
+    text-align: center;
+}
+
+button {
+    background-color: #4CAF50; /* Green background */
+    color: white; /* White text */
+    padding: 15px 32px;
+    text-align: center;
+    font-size: 16px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+button:hover {
+    background-color: #45a049; /* Darker green */
+}
